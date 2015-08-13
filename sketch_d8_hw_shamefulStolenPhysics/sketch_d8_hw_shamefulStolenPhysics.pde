@@ -1,5 +1,5 @@
 //I DIDNT MAKE THIS I JUST THINK ITS AN AWESOME PHYSICS EXAMPLE IM SO SORRY I SHAMED YOU UMI PLS FORGIVE ME Q_Q
-
+//FROM HERE http://murderandcreate.com/physics/
 
 
 import traer.physics.*;
@@ -18,8 +18,8 @@ void setup()
   smooth();
   stroke( 0 );
   background( 255 );
-  cursor( CROSS );    
-
+ 
+  
   physics = new ParticleSystem( 0.0f, 0.05f );
     
   mouse = physics.makeParticle();
