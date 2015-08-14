@@ -11,7 +11,7 @@ Boolean keyShoot = false;
 Boolean keyUp = false;
 Boolean keyDown = false;
 
-ArrayList<Alien> aliens;
+ArrayList<Alien> alien;
 
 void setup() {
   size(800, 600);

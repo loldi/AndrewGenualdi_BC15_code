@@ -22,7 +22,7 @@ class Alien {
   void checkCollisionWithBullet(Bullet b, Alien alien, int alienIndex, int shotIndex) {
     if (dist(x, y, b.x, b.y) < alienSize/2 + 2) {
       shots.remove(shotIndex);
-      aliens.remove(alienIndex);
+//      alien.remove(alienIndex);
 
     }
   }
